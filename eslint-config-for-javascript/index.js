@@ -142,12 +142,9 @@ module.exports = {
 
     // import
     'import/named': 2,
-    'import/default': 0,
-    'import/namespace': 0,
     'import/export': 2,
     'import/no-named-as-default': 2,
     'import/no-named-as-default-member': 2,
-    'import/no-deprecated': 0,
     'import/no-mutable-exports': 2,
     'import/first': 2,
     'import/no-duplicates': 2,
@@ -169,27 +166,9 @@ module.exports = {
       ],
     }],
     'import/newline-after-import': 2,
-    'import/no-restricted-paths': 0,
     'import/no-absolute-path': 2,
     'import/no-dynamic-require': 2,
-    'import/no-internal-modules': [0, {
-      allow: [],
-    }],
-    'import/no-unassigned-import': 0,
     'import/no-named-default': 2,
-    'import/no-anonymous-default-export': [1, {
-      allowArray: false,
-      allowArrowFunction: false,
-      allowAnonymousClass: false,
-      allowAnonymousFunction: false,
-      allowLiteral: false,
-      allowObject: false,
-    }],
-    'import/group-exports': 0,
-    'import/no-default-export': 0,
-    'import/no-named-export': 0,
     'import/no-self-import': 1,
-    'import/no-cycle': 0,
-    'import/no-relative-parent-imports': 0,
   }
 };
