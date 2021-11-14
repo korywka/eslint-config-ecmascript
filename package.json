@@ -1,5 +1,9 @@
 {
   "name": "eslint-config-for",
+  "scripts": {
+    "major": "npm version major --workspaces",
+    "minor": "npm version minor --workspaces"
+  },
   "workspaces": [
     "eslint-config-for-javascript",
     "eslint-config-for-react",
