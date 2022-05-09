@@ -1,12 +1,27 @@
 {
-  "name": "eslint-config-for",
-  "scripts": {
-    "major": "npm version major --workspaces",
-    "minor": "npm version minor --workspaces"
+  "name": "eslint-config-ecmascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "eslint-plugin-import": "2.26.0"
   },
-  "workspaces": [
-    "eslint-config-for-javascript",
-    "eslint-config-for-react",
-    "eslint-config-for-typescript"
-  ]
+  "devDependencies": {
+    "eslint": "8.15.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "eslintConfig": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/korywka/eslint-config-ecmascript"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "license": "MIT"
 }

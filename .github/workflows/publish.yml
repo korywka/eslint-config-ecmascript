@@ -13,12 +13,6 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
-      - run: |
-          cd eslint-config-for-javascript
-          npm publish
-          cd ../eslint-config-for-react
-          npm publish
-          cd ../eslint-config-for-typescript
-          npm publish
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
