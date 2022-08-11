@@ -1,4 +1,4 @@
-# eslint-config-for
+# eslint-config-for-ecmascript
 
 To use it in your project, run:
 
