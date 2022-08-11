@@ -1,16 +1,16 @@
-# eslint-config-for-ecmascript
+# eslint-config-ecmascript
 
 To use it in your project, run:
 
 ```
-npm install --save-dev eslint-config-for-ecmascript
+npm install --save-dev eslint-config-ecmascript
 ```
 
 Then add a following `.eslintrc` file in the repo root:
 
 ```json
 {
-  "extends": ["eslint-config-for-ecmascript"]
+  "extends": ["eslint-config-ecmascript"]
 }
 ```
 
