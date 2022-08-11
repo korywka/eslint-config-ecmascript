@@ -1,29 +1,18 @@
 # eslint-config-for
 
-## Install
+To use it in your project, run:
 
 ```
-npm i eslint-config-for-javascript
+npm install --save-dev eslint-config-for-ecmascript
 ```
 
-```
-npm i eslint-config-for-typescript
-```
+Then add a following `.eslintrc` file in the repo root:
 
-```
-npm i eslint-config-for-react
-```
-
-## Usage
-
-Extend necessary configs inside `.eslintrc.json`
-
-```
+```json
 {
-  "extends": [
-    "eslint-config-for-javascript", // required
-    "eslint-config-for-typescript", // optional
-    "eslint-config-for-react" // optional
-  ]
+  "extends": ["eslint-config-for-ecmascript"]
 }
 ```
+
+- [npm package](https://www.npmjs.com/package/eslint-config-ecmascript)
+- [eslint rules documentation](https://eslint.org/docs/latest/rules/)

@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {},
-  "dependencies": {
-    "eslint-plugin-import": "2.26.0"
-  },
   "devDependencies": {
-    "eslint": "8.15.0"
+    "eslint": "8.21.0"
   },
   "peerDependencies": {
     "eslint": "^8.0.0"
@@ -21,7 +18,8 @@
     "url": "https://github.com/korywka/eslint-config-ecmascript"
   },
   "keywords": [
-    "eslint"
+    "eslint",
+    "javascript"
   ],
   "license": "MIT"
 }
