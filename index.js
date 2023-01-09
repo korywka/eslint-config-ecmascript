@@ -159,7 +159,7 @@ module.exports = {
     // Enforce consistent linebreak style for operators
     'operator-linebreak': ['error', 'before'],
     // Require or disallow padding lines between statements
-    'padding-line-between-statements': [{ blankLine: 'always', prev: '*', next: 'return' }],
+    'padding-line-between-statements': ['error', { blankLine: 'always', prev: '*', next: 'return' }],
     // Require const declarations for variables that are never reassigned after declared
     'prefer-const': 'error',
     // Disallow parseInt() and Number.parseInt() in favor of binary, octal, and hexadecimal literals
