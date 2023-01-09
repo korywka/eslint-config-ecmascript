@@ -1,5 +1,7 @@
 # eslint-config-ecmascript
 
+[Eslint](https://eslint.org/) config based on `eslint:recommended` [rules](https://github.com/eslint/eslint/blob/main/conf/eslint-recommended.js).
+
 To use it in your project, run:
 
 ```
@@ -13,6 +15,3 @@ Then add a following `.eslintrc` file in the repo root:
   "extends": ["eslint-config-ecmascript"]
 }
 ```
-
-- [npm package](https://www.npmjs.com/package/eslint-config-ecmascript)
-- [eslint rules documentation](https://eslint.org/docs/latest/rules/)
