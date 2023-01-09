@@ -57,7 +57,7 @@ module.exports = {
     // Enforce the location of arrow function bodies
     'implicit-arrow-linebreak': 'error',
     // Enforce consistent indentation
-    'indent': ['error', 2, {
+    'indent': ['error', 'tab', {
       'flatTernaryExpressions': true,
       'SwitchCase': 1,
     }],
