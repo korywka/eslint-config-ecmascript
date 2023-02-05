@@ -1,25 +1,21 @@
 {
   "name": "eslint-config-ecmascript",
-  "version": "2.2.0",
+  "version": "2.2.2",
   "main": "index.js",
   "scripts": {},
   "devDependencies": {
-    "eslint": "8.31.0"
+    "eslint": "8.33.0"
   },
   "peerDependencies": {
     "eslint": "^8.0.0"
   },
-  "files": [
-    "index.js"
-  ],
   "eslintConfig": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/korywka/eslint-config-ecmascript"
-  },
-  "keywords": [
+  "files": ["index.js"],
+  "repository": "korywka/eslint-config-ecmascript",
+  "license": "MIT",
+	"keywords": [
     "eslint",
+		"config",
     "javascript"
-  ],
-  "license": "MIT"
+  ]
 }

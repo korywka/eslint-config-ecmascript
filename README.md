@@ -1,6 +1,6 @@
 # eslint-config-ecmascript
 
-[Eslint](https://eslint.org/) config based on `eslint:recommended` [rules](https://github.com/eslint/eslint/blob/main/conf/eslint-recommended.js).
+Eslint config based on `eslint:recommended` rules.
 
 To use it in your project, run:
 
