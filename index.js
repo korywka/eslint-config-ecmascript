@@ -88,8 +88,6 @@ module.exports = {
 		'no-caller': 'error',
 		// Disallow arrow functions where they could be confused with comparisons
 		'no-confusing-arrow': 'error',
-		// Disallow the use of console
-		'no-console': 'warn',
 		// Disallow duplicate module imports
 		'no-duplicate-imports': 'error',
 		// Disallow extending native types
