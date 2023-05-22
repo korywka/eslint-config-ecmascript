@@ -57,7 +57,10 @@ module.exports = {
 		// Require function names to match the name of the variable or property to which they are assigned
 		'func-name-matching': 'error',
 		// Enforce consistent spacing around * operators in generator functions
-		'generator-star-spacing': 'error',
+		'generator-star-spacing': ['error', {
+			'before': false,
+			'after': true,
+		}],
 		// Enforce the location of arrow function bodies
 		'implicit-arrow-linebreak': 'error',
 		// Enforce consistent indentation
@@ -206,7 +209,7 @@ module.exports = {
 		// Require or disallow spacing between template tags and their literals
 		'template-tag-spacing': 'error',
 		// Require or disallow spacing around the * in yield* expressions
-		'yield-star-spacing': 'error',
+		'yield-star-spacing': ['error', 'after'],
 		// Require or disallow "Yoda" conditions
 		'yoda': 'error',
 	},
