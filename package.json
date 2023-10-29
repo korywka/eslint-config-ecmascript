@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ecmascript",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "main": "index.js",
   "scripts": {},
   "devDependencies": {
@@ -10,12 +10,14 @@
     "eslint": "^8.0.0"
   },
   "eslintConfig": {},
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "repository": "korywka/eslint-config-ecmascript",
   "license": "MIT",
-	"keywords": [
+  "keywords": [
     "eslint",
-		"config",
+    "config",
     "javascript"
   ]
 }

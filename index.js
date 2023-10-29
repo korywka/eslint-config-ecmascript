@@ -24,12 +24,6 @@ module.exports = {
 		'block-spacing': 'error',
 		// Enforce consistent brace style for blocks
 		'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
-		// Enforce camelcase naming convention
-		'camelcase': ['error', {
-			ignoreDestructuring: true,
-			ignoreImports: true,
-			ignoreGlobals: true,
-		}],
 		// Require or disallow trailing commas
 		'comma-dangle': ['error', {
 			'arrays': 'always-multiline',
