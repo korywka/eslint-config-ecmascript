@@ -109,8 +109,6 @@ module.exports = {
 		'no-multiple-empty-lines': ['error', {
 			'max': 2,
 		}],
-		// Disallow new operators outside of assignments or comparisons
-		'no-new': 'error',
 		// Disallow Object constructors
 		'no-new-object': 'error',
 		// Disallow new operators with the String, Number, and Boolean objects
